@@ -1,5 +1,7 @@
+// import the orm 
 var orm = require("../config/orm.js");
 
+// create a burger object
 var burger = {
   all: function(cb) {
     orm.all("burgers", function(res) {
@@ -12,6 +14,7 @@ var burger = {
       cb(res);
     });
   },
+  // condition is for the WHERE clause for sql queries
   update: function(objColVals, condition, cb) {
     orm.update("burgers", objColVals, condition, function(res) {
       cb(res);
