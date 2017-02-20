@@ -6,7 +6,7 @@ var connectionInfo = {
 
   host: "localhost",
   user: "root",
-  password: "Tantdyalfsw#4",
+  password: "",
   database: "burger_db"
 };
 
