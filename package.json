@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Let's the user add a burger to the database and \"consume\" it.",
   "main": "server.js",
+  "engines": {
+    "node": "6.9.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
